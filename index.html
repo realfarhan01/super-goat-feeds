@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Super Goat Feeds</title>      
+      <link rel="icon" type="image/png" href="inc/assets/images/favicon.png">
+      <link rel="stylesheet" href="inc/assets/css/style.css">
+      <link rel="stylesheet" href="inc/assets/css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="inc/assets/css/animate.min.css">
+
+      <script src="inc/assets/js/wow.min.js"></script>
+      <script src="inc/assets/js/app.js" defer></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.rtl.min.css"  />
+   </head>
+   <body>
+      <header class="header sticky-nav">
+         <div class="container">
+            <div class="header-wrapper">
+               <a href="index.html" class="logo">
+                  <img class="hide-sticky" src="inc/assets/images/logo.png" alt="pawfy">
+                  <img class="show-sticky" src="inc/assets/images/logo-sticky.png" alt="pawfy">
+               </a>
+               <div class="header-inner-wrapper">
+                  <div class="navigation-menu-wrapper menu-b538310 desktop-wrapper">
+                     <ul id="menu-main-menu" class="navigation-menu desktop">
+                         <li class="menu-item">
+                            <a href="index.html">Home</a>
+                         </li>
+                         <li class="menu-item">
+                            <a href="about-us.html">About Us</a>
+                         </li>
+                         <li class="menu-item menu-item-has-children">
+                            <a href="#.">Product</a>
+                            <ul class="sub-menu">
+                               <li class="menu-item">
+                                  <a href="nutrihay.html">NutriHay</a>
+                               </li>
+                               <li class="menu-item">
+                                  <a href="nutrimash.html">NutriMash</a>
+                               </li>
+                            </ul>
+                         </li>
+                        <!--  <li class="menu-item">
+                            <a href="gallery.html">Gallery</a>
+                         </li> -->
+                         <li class="menu-item">
+                            <a href="how-to-buy.html">How to Buy</a>
+                         </li>
+                         <li class="menu-item">
+                            <a href="contact-us.html"> Contact Us</a>
+                         </li>
+                      </ul>
+                  </div>
+                  <div class="hamburger direction-left">
+                     <div class="hamburger-wrapper">
+                        <div class="hamburger-icon">
+                           <div class="bars">
+                              <div class="bar"></div>
+                              <div class="bar"></div>
+                              <div class="bar"></div>
+                           </div>
+                        </div>
+                        <div class="hamburger-content">
+                           <div class="hamburger-content-header">
+                              <a href="index.html" class="logo">
+                                 <img src="inc/assets/images/logo-sticky.png" alt="pawfy">
+                              </a>
+                              <div class="hamburger-close">
+                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>window-close</title>
+                                    <path d="M13.46,12L19,17.54V19H17.54L12,13.46L6.46,19H5V17.54L10.54,12L5,6.46V5H6.46L12,10.54L17.54,5H19V6.46L13.46,12Z" />
+                                 </svg>
+                              </div>
+                           </div>
+                           <div class="navigation-menu-wrapper">
+                              <ul class="navigation-menu mobile">
+                                 <li class="menu-item">
+                                    <a href="index.html"> Home </a>                              
+                                 </li>
+                                 <li class="menu-item">
+                                    <a href="about-us.html">About Us</a>                          
+                                 </li>
+                                 <li class="menu-item menu-item-has-children">
+                                    <a href="#."> Product <div class="icon">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                                             <path d="M219.9 266.7L75.89 426.7c-5.906 6.562-16.03 7.094-22.59 1.188c-6.918-6.271-6.783-16.39-1.188-22.62L186.5 256L52.11 106.7C46.23 100.1 46.75 90.04 53.29 84.1C59.86 78.2 69.98 78.73 75.89 85.29l144 159.1C225.4 251.4 225.4 260.6 219.9 266.7z"></path>
+                                          </svg>
+                                       </div>
+                                    </a>
+                                    <ul class="sub-menu">
+                                       <li class="back-button">
+                                          <a href="#">
+                                             <div class="icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                                                   <path d="M219.9 266.7L75.89 426.7c-5.906 6.562-16.03 7.094-22.59 1.188c-6.918-6.271-6.783-16.39-1.188-22.62L186.5 256L52.11 106.7C46.23 100.1 46.75 90.04 53.29 84.1C59.86 78.2 69.98 78.73 75.89 85.29l144 159.1C225.4 251.4 225.4 260.6 219.9 266.7z"></path>
+                                                </svg>
+                                             </div> Back
+                                          </a>
+                                       </li>
+                                       <li class="menu-item">
+                                          <a href="nutrihay.html">NutriHay</a>
+                                       </li>
+                                       <li class="menu-item">
+                                          <a href="nutrimash.html">NutriMash</a>
+                                       </li>
+                                    </ul>
+                                 </li>
+                                 <!-- <li class="menu-item">
+                                    <a href="gallery.html">Gallery</a>
+                                 </li> -->
+                                 <li class="menu-item menu-item-has-children">
+                                    <a href="how-to-buy.html">How to Buy</a>
+                                 </li>
+                                 <li class="menu-item">
+                                    <a href="contact-us.html"> Contact Us</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section class="hero-section">
+         <div class="swiper-hero hero-slider">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <img class="hero-slide-bg" src="inc/assets/images/img-01.jpg" alt="Nutrimash">
+                  <div class="hero-text-box container">
+                     <h1 class="hero-heading">Smart Feeding for Stronger, Healthier Goats!</h1>
+                     <div class="hero-btn">
+                        <a href="#." class="btn btn--orange wow animate__animated animate__pulse" data-wow-delay="1s" data-wow-duration="2s">Call Now</a>
+                        <a href="#." class="btn btn--white wow animate__animated animate__pulse" data-wow-delay="1s" data-wow-duration="2s">Explore Our Feeds</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <img class="hero-slide-bg" src="inc/assets/images/img-02.jpg" alt="Nutrimash">
+                  <div class="hero-text-box container">
+                     <h1 class="hero-heading">Power Up Your Herd with Super Goat Feeds</h1>
+                     <!-- <p class="description"> Welcome to the no.1 rated dogs training & breeding center in Sydney. </p> -->
+                     <div class="hero-btn">
+                        <a href="about-us.html" class="btn btn--orange wow animate__animated animate__pulse" data-wow-delay="1s" data-wow-duration="2s">Learn more</a>
+                        <a href="contact-us-page.html" class="btn btn--white wow animate__animated animate__pulse" data-wow-delay="1s" data-wow-duration="2s">purchase</a>
+                     </div>
+                  </div>
+               </div>
+              <!--  <div class="swiper-slide">
+                  <img class="hero-slide-bg" src="inc/assets/images/hero-img-1.png" alt="Nutrimash">
+                  <div class="hero-text-box container">
+                     <h1 class="hero-heading">Man’s best friend!</h1>
+                     <p class="description"> Welcome to the no.1 rated dogs training & breeding center in Sydney. </p>
+                     <div class="hero-btn">
+                        <a href="about-us.html" class="btn btn--orange wow animate__animated animate__pulse" data-wow-delay="1s" data-wow-duration="2s">Learn more</a>
+                        <a href="contact-us-page.html" class="btn btn--white wow animate__animated animate__pulse" data-wow-delay="1s" data-wow-duration="2s">purchase</a>
+                     </div>
+                  </div>
+               </div> -->
+            </div>
+            <svg class="swiper-hero-button-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+               <title>arrow-right</title>
+               <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" />
+            </svg>
+            <svg class="swiper-hero-button-prev" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+               <title>arrow-left</title>
+               <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" />
+            </svg>
+            <div class="swiper-hero-pagination"></div>
+         </div>
+      </section>
+      <div class="container mt-6 pt-5 mb-5 pb-5">
+         <div class="row justify-content-center align-items-center mt-5 pt-5">
+            <!-- <h2 class="primary-heading text-center mt-5 pt-5 pb-5 mb-5">Introduction</h2> -->
+            <div class="col-md-5">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="about-logo-section">
+                        <div class="about-logo-container">
+                           <img src="inc/assets/images/logo-02.png" width="80%" alt="Nutrihay Logo" class="about-logo-img">
+                           <h2 class="title">Formulated and Marketed By</h2>
+                           <div class="info-box">
+                              <h2 class="title  d-block d-md-none nb-2">Formulated and Marketed By</h2>
+                              <p>
+                                 <strong>Introducing NUTRIMASH</strong>: The Ultimate Nutrition Solution for Goats
+                              </p>
+                              <p>NUTRIMASH is a high-quality mash feed specifically formulated to meet the unique nutritional needs of goats. Our expertly crafted formula is rich in vitamins, minerals, and molasses, with a minimum of 17% crude protein to support optimal growth, health, and productivity. Additionally, our feed is enhanced with heat-resistant probiotics to promote digestive health and well-being. Trust NUTRIMASH to unlock the full potential of your goat herd.</p>
+                              <a href="https://breedshoppe.com/about-us/" target="_blank" class="btn btn--orange">Read More</a>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#."><img src="inc/assets/images/logo-03.png" width="100%"></a>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="about-logo-section">
+                        <div class="about-logo-container">
+                           <img src="inc/assets/images/logo-01.png" width="80%" alt="Nutrimash Logo" class="about-logo-img">
+                           <h2 class="title">Manufacured <br>By</h2>
+                           <div class="info-box">
+                               <h2 class="title d-block d-md-none mb-2">Manufacured By</h2>
+                              <p>
+                                <strong>Introducing NUTRIHAY</strong> - premium hay pellets specifically crafted for goats. Our unique formula combines the finest hay with essential vitamins, minerals, molasses, and heat-resistant probiotics to provide a nutritious and delicious diet for your goats.
+                              </p>
+                              <p>Boost their health, happiness, and productivity with NUTRIHAY - the ultimate dry fodder solution for thriving goats.</p>
+                              <p>(Learn More/Shop Now buttons can follow below this intro)</p>
+                              <a href="https://uniqueorganics.com/who-we-are/" target="_blank" class="btn btn--orange">Read More</a>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#."><img src="inc/assets/images/logo-04.png" width="100%"></a>
+                  </div>   
+               </div>
+            </div>
+            <div class="col-md-6 about-right-col">
+               <div class="row">
+                  <div class="col-md-12">
+                     <p>Introducing a revolutionary feeding system for achieving complete nutrition of your precious goats.</p>
+                  </div>
+                  <div class="col-md-12">
+                     <div class="row">
+                        <h2>GOAT NOURISHMENT SIMPLIFIED</h2>
+                        <div class="col-md-4">
+                           <img src="inc/assets/images/goats-img-01.jpg"  width="100%">
+                        </div>
+                        <div class="col-md-4">
+                           <img src="inc/assets/images/goats-img-02.jpg"  width="100%">
+                        </div>
+                        <div class="col-md-4">
+                           <img src="inc/assets/images/goats-img-03.jpg" width="100%">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <section class="features-section">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-md-8 text-center mb-4 pb-4">
+                   <h1 class="primary-heading text-center mb-2 pb-2">Product</h1>
+                   <p style="color: #fff;">Products brought to you by BreedShoppe, goat breeding experts with more than 20 years of experience and Unique organics, a 1500 crore conglomerate.</p>
+               </div>
+               <div class="col-md-6 text-center">
+                  <a href="nutrihay.html" class="feature-block wow animate__animated custom-fadeInUp" data-wow-delay="0s">
+                     <div class="img-block">
+                        <img src="inc/assets/images/goat-img-1.png" alt="goat-img-1" class="feature-img">
+                        <div class="overlay"></div>
+                        <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                           <title>plus</title>
+                           <path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
+                        </svg>
+                     </div>
+                     <div class="feature-text-box">
+                        <h3 class="title">NutriHay</h3>
+                        <p class="feature-text">Improved Nutrient Absorption: NutriHay provides essential vitamins, minerals, and heat-resistant probiotics, ensuring optimal nutrient uptake for goat health.</p>
+                        <p class="feature-text">Uniform Nutrition: NutriHay guarantees consistent nutrient distribution, eliminating variability found in traditional hay.</p>
+                        <p class="feature-text">Supports Healthy Digestion: NutriHay's heat-resistant probiotics promote beneficial gut bacteria, enhancing digestive health.</p>
+                        <span class="link btn--orange"> Read More</span>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-md-6 text-center">
+                  <a href="nutrimash.html" class="feature-block wow animate__animated custom-fadeInUp" data-wow-delay="0.25s">
+                     <div class="img-block">
+                        <img src="inc/assets/images/goat-img-2.png" alt="goat-img-2" class="feature-img">
+                        <div class="overlay"></div>
+                        <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                           <path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
+                        </svg>
+                     </div>
+                     <div class="feature-text-box">
+                        <h3 class="title">NutriMash</h3>
+                        <p class="feature-text">Optimized Nutrient Intake: NUTRIMASH provides essential vitamins, minerals, and probiotics, ensuring optimal nutrient uptake for goat health.</p>
+                        <p class="feature-text">High-Quality Protein: Crude protein content not less than 17%, sourced from natural protein sources - Groundnut Oil Cake and Guar Korma.</p>
+                        <p class="feature-text">Added Vitamins: Enriched with Vitamin A, D3, and E for enhanced immune function, reproductive health, and overall well-being.</p>
+                        <span class="link btn--orange"> Read More</span>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="breeds-section">
+         <div class="container">
+            <h1 class="primary-heading wow animate__animated animate__fadeIn">Breeds we handle <span class="orange-dot">.</span>
+               <br>
+               <span class="underline"></span>
+            </h1>
+            <p class="primary-discription wow animate__animated animate__fadeIn" style="color: #fff;"> We help save lives of your beloved pets. Our expert pet trainers are always here to help your pet in need. </p>
+            <div class="breed-card-block">
+               <a href="breeds-page.html" class="dog-breed-card wow animate__animated animate__zoomIn">
+                  <img src="inc/assets/images/breed-dog-1.png" alt="Dairy Goats" class="breed-img">
+                  <h4 class="dog-breed-title">Dairy Goats</h4>
+               </a>
+               <a href="breeds-page.html" class="dog-breed-card wow animate__animated animate__zoomIn">
+                  <img src="inc/assets/images/breed-dog-2.png" alt="Parent stock" class="breed-img">
+                  <h4 class="dog-breed-title">Parent stock</h4>
+               </a>
+               <a href="breeds-page.html" class="dog-breed-card wow animate__animated animate__zoomIn">
+                  <img src="inc/assets/images/breed-dog-3.png" alt="Pet goats" class="breed-img">
+                  <h4 class="dog-breed-title">Pet goats</h4>
+               </a>
+               <a href="breeds-page.html" class="dog-breed-card wow animate__animated animate__zoomIn">
+                  <img src="inc/assets/images/breed-dog-4.png" alt="Eid goat" class="breed-img">
+                  <h4 class="dog-breed-title">Eid goat</h4>
+               </a>
+               <a href="breeds-page.html" class="dog-breed-card wow animate__animated animate__zoomIn">
+                  <img src="inc/assets/images/breed-dog-5.png" alt="Feeds and Hay" class="breed-img">
+                  <h4 class="dog-breed-title">Feeds and Hay</h4>
+               </a>
+               <a href="breeds-page.html" class="dog-breed-card wow animate__animated animate__zoomIn">
+                  <img src="inc/assets/images/breed-dog-6.png" alt="Dachshund Dog" class="breed-img">
+                  <h4 class="dog-breed-title">Supplements</h4>
+               </a>
+            </div>
+            <div class="breeds-buttons">
+               <a href="breeds-page.html" class="btn btn--white wow animate__animated animate__pulse" data-wow-duration="2s">Find out more</a>
+               <a href="contact-us-page.html" class="btn btn--orange wow animate__animated animate__pulse" data-wow-duration="2s">purchase</a>
+            </div>
+         </div>
+      </section>
+      <section class="questionaire-section wow animate__animated animate__fadeIn">
+         <div class="container">
+            <div class="question-block">
+               <div class="question wow animate__animated fadeInLeftSmall">
+                  <div class="question-icon">
+                     <svg fill="#000000" height="100px" width="100px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.001 512.001" xml:space="preserve" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M452.602,188.772c-4.24-4.017-10.934-3.833-14.951,0.408c-0.356,0.375-0.719,0.75-1.088,1.119 c-4.13,4.13-4.13,10.827,0,14.958c2.066,2.065,4.772,3.098,7.479,3.098c2.707,0,5.414-1.033,7.479-3.098 c0.507-0.507,1.003-1.017,1.491-1.534C457.027,199.481,456.844,192.787,452.602,188.772z"></path> </g> </g> <g> <g> <path d="M196.976,236.899c-5.841,0-10.576,4.736-10.576,10.576v5.101c0,5.84,4.735,10.576,10.576,10.576 s10.576-4.736,10.576-10.576v-5.101C207.552,241.634,202.817,236.899,196.976,236.899z"></path> </g> </g> <g> <g> <path d="M241.02,367.803l-3.451-5.363c-3.161-4.913-9.706-6.331-14.618-3.171c-4.913,3.16-6.332,9.705-3.172,14.616l3.451,5.363 c2.022,3.142,5.427,4.855,8.904,4.855c1.96,0,3.943-0.545,5.713-1.684C242.761,379.26,244.18,372.715,241.02,367.803z"></path> </g> </g> <g> <g> <path d="M303.11,125.152c-0.008-0.004-0.017-0.01-0.025-0.014C303.092,125.141,303.1,125.147,303.11,125.152 C303.109,125.151,303.11,125.152,303.11,125.152z"></path> </g> </g> <g> <g> <path d="M477.083,4.832c-1.145-0.41-28.492-9.897-64.434-1.116c-31.149,7.613-74.85,30.88-109.748,97.817 c-6.847-2.537-13.633-3.558-19.943-3.826l6.74-6.74c4.13-4.13,4.13-10.827,0-14.958c-4.13-4.129-10.827-4.129-14.958,0 l-8.149,8.149V71.735c0-5.84-4.735-10.576-10.576-10.576c-5.841,0-10.576,4.736-10.576,10.576v12.424l-8.149-8.149 c-4.13-4.129-10.827-4.129-14.958,0c-4.13,4.13-4.13,10.827,0,14.958l6.74,6.74c-6.31,0.268-13.096,1.287-19.943,3.824 C174.231,34.596,130.53,11.329,99.381,3.717C63.439-5.068,36.093,4.422,34.947,4.832c-4.653,1.656-7.57,6.31-6.985,11.214 c0.586,4.905,4.457,8.748,9.368,9.262c0.167,0.02,17.01,2.126,39.66,16.485c20.207,12.81,49.142,38.184,74.307,86.778 c-9.008-6.216-19.525-10.851-30.861-13.4c-16.302-3.673-32.848-2.553-46.593,3.153c-14.447,5.998-24.945,16.588-29.564,29.822 c-0.006,0.02-0.013,0.04-0.019,0.059c-0.017,0.049-0.032,0.098-0.048,0.148c-0.928,2.702-1.616,5.536-2.041,8.445 c-2.231,15.419,3.111,31.383,15.043,44.948c11.316,12.865,27.39,22.165,45.258,26.185c6.317,1.422,12.639,2.123,18.813,2.123 c9.194,0,18.051-1.555,26.034-4.591c0.127,1.315,0.254,2.63,0.406,3.953c0.002,0.016,0.003,0.032,0.005,0.047 c0.002,0.02,0.004,0.039,0.006,0.059c2.28,19.711,7.479,39.886,14.637,56.806c3.099,7.333,6.168,14.064,8.876,20.004 c10.403,22.818,15.23,34.276,11.325,45.274c-9.589,27.02,2.996,44.887,15.192,56.498c0.857,15.611,7.162,63.948,51.418,101.394 c1.971,1.668,4.402,2.502,6.831,2.502c2.429,0,4.86-0.834,6.831-2.502c44.255-37.447,50.561-85.782,51.418-101.393 c12.191-11.606,24.781-29.474,15.191-56.5c-3.904-10.996,0.923-22.454,11.325-45.273c2.708-5.94,5.777-12.672,8.876-20.006 c7.148-16.927,12.347-37.099,14.634-56.795c0.003-0.022,0.004-0.044,0.007-0.067c0.002-0.017,0.003-0.033,0.005-0.05 c0.153-1.321,0.28-2.636,0.407-3.949c7.979,3.035,16.834,4.589,26.03,4.589c6.171,0,12.499-0.7,18.814-2.123 c5.44-1.224,10.779-2.958,15.871-5.153c5.364-2.312,7.838-8.534,5.526-13.899c-2.312-5.362-8.536-7.835-13.899-5.526 c-3.891,1.677-7.977,3.004-12.144,3.942c-10.477,2.361-20.79,2.11-29.607-0.552c12.142-18.436,35.004-47.144,56.319-51.503 c6.188-1.268,11.656-0.337,16.978,2.911c0.118,0.555,0.242,1.109,0.325,1.675c0.485,3.358,0.319,6.846-0.493,10.367 c-1.315,5.692,2.235,11.371,7.926,12.684c0.801,0.185,1.601,0.274,2.389,0.274c4.813,0,9.167-3.308,10.296-8.199 c1.405-6.085,1.68-12.192,0.815-18.171c-0.423-2.895-1.113-5.728-2.041-8.436c-0.015-0.045-0.029-0.091-0.043-0.136 c-0.007-0.022-0.014-0.045-0.022-0.068c-4.617-13.231-15.116-23.82-29.563-29.818c-13.746-5.706-30.292-6.826-46.589-3.154 c-11.339,2.55-21.857,7.186-30.865,13.401c25.165-48.595,54.101-73.968,74.307-86.778c22.651-14.359,39.493-16.465,39.597-16.479 c4.913-0.514,8.814-4.36,9.4-9.264C484.623,11.145,481.736,6.489,477.083,4.832z M107.119,207.294 c-26.711-6.009-46.865-27.746-44.014-47.452c0.085-0.573,0.208-1.132,0.328-1.691c5.317-3.245,10.779-4.178,16.962-2.914 c21.258,4.335,44.155,33.063,56.323,51.507C127.899,209.404,117.59,209.652,107.119,207.294z M147.801,185.656 c-2.622-3.62-5.568-7.495-8.795-11.437c-17.115-20.909-33.925-33.856-50.042-38.6c8.053-1.895,17.317-1.956,26.828,0.188 c16.052,3.61,30.199,12.932,38.046,24.793C151.034,168.318,149.018,176.69,147.801,185.656z M86.353,22.619 c2.599,0.435,5.269,0.977,8.006,1.647c37.618,9.193,70.345,38.64,95.149,85.418l-20.404,7.285 C142.338,65.986,111.33,37.96,86.353,22.619z M256.015,487.148c-20.991-20.454-30.16-43.312-34.158-59.959 c4.885,3.639,9.414,7.17,13.064,10.773c1.98,1.955,4.649,3.05,7.43,3.05h27.329c2.782,0,5.451-1.096,7.43-3.05 c3.649-3.602,8.178-7.134,13.064-10.773C286.175,443.836,277.006,466.693,256.015,487.148z M282.937,250.545 c1.586,0.848,3.292,1.25,4.974,1.25c3.778,0,7.434-2.03,9.338-5.595c7.448-13.943,18.227-22.555,28.836-23.038 c6.355-0.302,12.06,2.465,16.671,8.001c-2.268,16.438-6.684,32.958-12.586,46.931c-2.984,7.061-5.858,13.366-8.638,19.463 c-11.003,24.136-18.953,41.576-12.013,61.124c4.985,14.044,1.431,24.332-12.669,36.682c-4.587,4.011-9.895,7.917-15.03,11.695 c-5.556,4.089-11.267,8.292-16.318,12.802h-18.978c-5.05-4.511-10.761-8.713-16.318-12.802 c-5.134-3.777-10.443-7.685-15.023-11.689c-14.107-12.356-17.66-22.643-12.677-36.687c6.94-19.549-1.01-36.989-12.013-61.125 c-2.779-6.097-5.654-12.403-8.639-19.467c-5.908-13.965-10.325-30.481-12.586-46.926c4.61-5.539,10.31-8.317,16.674-8.002 c10.609,0.483,21.388,9.097,28.836,23.038c1.905,3.565,5.559,5.595,9.338,5.595c1.681,0,3.388-0.402,4.974-1.25 c5.153-2.752,7.098-9.159,4.346-14.312c-10.997-20.589-28.392-33.376-46.529-34.203c-6.808-0.306-13.361,1.115-19.336,4.043 c0.098-16.221,2.689-30.442,7.723-42.28c0.039-0.092,0.077-0.185,0.113-0.278c0.399-0.933,0.767-1.748,1.122-2.49 c0.04-0.085,0.07-0.171,0.108-0.257c0.088-0.197,0.173-0.394,0.25-0.596c0.051-0.134,0.096-0.272,0.141-0.409 c0.062-0.189,0.123-0.38,0.174-0.573c0.041-0.155,0.077-0.312,0.112-0.47c0.038-0.174,0.075-0.35,0.105-0.527 c0.03-0.178,0.053-0.357,0.073-0.537c0.018-0.159,0.035-0.316,0.045-0.476c0.014-0.199,0.019-0.4,0.021-0.601 c0.001-0.144,0.003-0.287-0.001-0.432c-0.006-0.215-0.023-0.43-0.042-0.646c-0.008-0.093-0.007-0.184-0.018-0.277l-2.112-18.04 l32.52-11.611c0.164-0.059,0.326-0.135,0.489-0.203c0.116-0.049,0.233-0.092,0.347-0.144c0.059-0.026,0.122-0.049,0.179-0.076 h0.001c0.008-0.004,0.017-0.01,0.025-0.014c0.317-0.153,0.625-0.319,0.92-0.5c0.026-0.016,0.051-0.035,0.076-0.052 c0.012-0.007,0.023-0.012,0.035-0.019c11.569-7.271,24.257-6.076,35.46-4.997v12.898c0,5.84,4.735,10.576,10.576,10.576 c5.841,0,10.576-4.736,10.576-10.576v-12.898c11.206-1.079,23.892-2.275,35.46,4.997c0.012,0.007,0.023,0.012,0.035,0.019 c0.026,0.016,0.05,0.035,0.076,0.052c0.296,0.181,0.603,0.347,0.92,0.5c0.008,0.004,0.017,0.01,0.026,0.014 c0.058,0.027,0.122,0.05,0.18,0.077c0.115,0.053,0.232,0.096,0.347,0.144c0.018,0.007,0.036,0.015,0.054,0.022 c0.143,0.058,0.285,0.126,0.428,0.178c0.002,0,0.003,0.001,0.005,0.002l31.827,11.362l-2.877,14.271 c-0.514,2.548-0.06,5.064,1.1,7.176c0.9,1.71,1.744,3.488,2.518,5.317c0.024,0.059,0.05,0.117,0.075,0.177 c5.01,11.817,7.59,26.002,7.689,42.195c-5.975-2.928-12.528-4.349-19.336-4.041c-18.137,0.827-35.531,13.614-46.529,34.203 C275.839,241.386,277.785,247.794,282.937,250.545z M396.243,135.806c9.51-2.143,18.772-2.081,26.823-0.188 c-16.117,4.746-32.927,17.691-50.042,38.6c-3.227,3.942-6.172,7.817-8.794,11.437c-1.217-8.971-3.232-17.344-6.034-25.054 C366.038,148.739,380.182,139.417,396.243,135.806z M342.926,116.967l-20.416-7.288c24.747-46.88,56.348-75.507,94.055-85.137 c3.112-0.795,6.146-1.424,9.092-1.911C400.686,37.973,369.685,65.998,342.926,116.967z"></path> </g> </g> <g> <g> <path d="M315.053,236.899c-5.841,0-10.576,4.736-10.576,10.576v5.101c0,5.84,4.735,10.576,10.576,10.576 s10.576-4.736,10.576-10.576v-5.101C325.63,241.634,320.895,236.899,315.053,236.899z"></path> </g> </g> <g> <g> <path d="M289.078,359.269c-4.914-3.161-11.456-1.742-14.618,3.171l-3.451,5.363c-3.16,4.913-1.741,11.456,3.172,14.616 c1.771,1.139,3.753,1.684,5.713,1.684c3.477,0,6.882-1.712,8.904-4.855l3.451-5.363C295.41,368.973,293.99,362.43,289.078,359.269 z"></path> </g> </g> </g></svg>
+                  </div>
+                  <h1 class="question-text">So Your Goats been Annoying you Lately?</h1>
+               </div>
+               <div class="question-btn">
+                  <a href="about-us.html" class="btn btn--orange wow animate__animated animate__pulse" data-wow-duration="2s">Find out more</a>
+                  <a href="contact-us.html" class="btn btn--white wow animate__animated animate__pulse" data-wow-duration="2s">Purchase</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer-wrapper grid grid-4-col">               
+               <div class="about-col">
+                  <img src="inc/assets/images/logo.png" width="130px">
+                  <p class="footer-description"> Boost their health, happiness, and productivity with NUTRIHAY - the ultimate dry fodder solution for thriving goats.</p>                  
+               </div>
+               <div class="links-col">
+                  <h4 class="sub-heading">links</h4>
+                  <ul class="footer-nav">
+                     <li>
+                        <a href="index.html" class="footer-link">
+                           <svg class="icon-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                              <path d="M8,5.14V19.14L19,12.14L8,5.14Z" />
+                           </svg> Home </a>
+                     </li>
+                     <li>
+                        <a href="about-us.html" class="footer-link">
+                           <svg class="icon-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                              <path d="M8,5.14V19.14L19,12.14L8,5.14Z" />
+                           </svg> About Us</a>
+                     </li>
+                     <!-- <li>
+                        <a href="gallery.html" class="footer-link">
+                           <svg class="icon-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                              <path d="M8,5.14V19.14L19,12.14L8,5.14Z" />
+                           </svg> Gallery </a>
+                     </li> -->
+                     <li>
+                        <a href="product.html" class="footer-link">
+                           <svg class="icon-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                              <path d="M8,5.14V19.14L19,12.14L8,5.14Z" />
+                           </svg> Product </a>
+                     </li>
+                     <li>
+                        <a href="#." class="footer-link">
+                           <svg class="icon-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                              <path d="M8,5.14V19.14L19,12.14L8,5.14Z" />
+                           </svg> How to Buy</a>
+                     </li>
+                     <li>
+                        <a href="contact-us.html" class="footer-link">
+                           <svg class="icon-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                              <path d="M8,5.14V19.14L19,12.14L8,5.14Z" />
+                           </svg>Contact Us</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="subscribe-col">
+                   <h4 class="sub-heading">Contact Us</h4>
+                   <ul class="info">
+                      <li>
+                         <svg class="icon wow animate__animated animate__zoomIn" data-wow-delay="0.25s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+                         </svg>
+                         <a href="tel:+919785925060">+91 978-592-5060</a>
+                      </li>
+                      <li>
+                         <svg class="icon wow animate__animated animate__zoomIn" data-wow-delay="0.25s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M21.03 6.29L12 .64L2.97 6.29C2.39 6.64 2 7.27 2 8V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V8C22 7.27 21.61 6.64 21.03 6.29M20 18H4V10L12 15L20 10V18M12 13L4 8L12 3L20 8L12 13Z" />
+                         </svg>
+                         <a href="mailto:breedshoppe@gmail.com">breedshoppe@gmail.com</a>
+                      </li>
+                      <li>
+                         <svg class="icon wow animate__animated animate__zoomIn" data-wow-delay="0.25s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <title>map-legend</title>
+                            <path d="M9,3L3.36,4.9C3.15,4.97 3,5.15 3,5.38V20.5A0.5,0.5 0 0,0 3.5,21L3.66,20.97L9,18.9L15,21L20.64,19.1C20.85,19.03 21,18.85 21,18.62V3.5A0.5,0.5 0 0,0 20.5,3L20.34,3.03L15,5.1L9,3M8,5.45V17.15L5,18.31V6.46L8,5.45M10,5.47L14,6.87V18.53L10,17.13V5.47M19,5.7V17.54L16,18.55V6.86L19,5.7M7.46,6.3L5.57,6.97V9.12L7.46,8.45V6.3M7.46,9.05L5.57,9.72V11.87L7.46,11.2V9.05M7.46,11.8L5.57,12.47V14.62L7.46,13.95V11.8M7.46,14.55L5.57,15.22V17.37L7.46,16.7V14.55Z" />
+                         </svg>
+                         <a href="#.">314, Samarth anugrah apartments <br>Belgaum baswan galli Belgaum-590001</a>
+                      </li>
+                   </ul>
+                   <ul class="footer-social-links">
+                      <li>
+                         <a href="https://www.facebook.com/" target="_blank" class="social-link">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                               <title>facebook</title>
+                               <path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
+                            </svg>
+                         </a>
+                      </li>
+                      <li>
+                         <a href="https://www.twitter.com/" target="_blank" class="social-link">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                               <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                            </svg>
+                         </a>
+                      </li>
+                      <li>
+                         <a href="https://www.pinterest.com/" target="_blank" class="social-link">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                               <title>pinterest</title>
+                               <path d="M9.04,21.54C10,21.83 10.97,22 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2A10,10 0 0,0 2,12C2,16.25 4.67,19.9 8.44,21.34C8.35,20.56 8.26,19.27 8.44,18.38L9.59,13.44C9.59,13.44 9.3,12.86 9.3,11.94C9.3,10.56 10.16,9.53 11.14,9.53C12,9.53 12.4,10.16 12.4,10.97C12.4,11.83 11.83,13.06 11.54,14.24C11.37,15.22 12.06,16.08 13.06,16.08C14.84,16.08 16.22,14.18 16.22,11.5C16.22,9.1 14.5,7.46 12.03,7.46C9.21,7.46 7.55,9.56 7.55,11.77C7.55,12.63 7.83,13.5 8.29,14.07C8.38,14.13 8.38,14.21 8.35,14.36L8.06,15.45C8.06,15.62 7.95,15.68 7.78,15.56C6.5,15 5.76,13.18 5.76,11.71C5.76,8.55 8,5.68 12.32,5.68C15.76,5.68 18.44,8.15 18.44,11.43C18.44,14.87 16.31,17.63 13.26,17.63C12.29,17.63 11.34,17.11 11,16.5L10.33,18.87C10.1,19.73 9.47,20.88 9.04,21.57V21.54Z" />
+                            </svg>
+                         </a>
+                      </li>
+                      <li>
+                         <a href="https://www.instagram.com/" target="_blank" class="social-link">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                               <title>instagram</title>
+                               <path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
+                            </svg>
+                         </a>
+                      </li>
+                   </ul>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <p class="copyright-nutrimash">Copyright 2025 <a href="index.html">Nutrimash</a> All Rights Reserved.</p>
+                <p class="development">Design & Development By <a href="http://aspiretechnosys.com/" target="_blank"> Aspire Technosys Pvt. Ltd.</a></p>
+            </div>
+         </div>
+      </footer>
+      <button class="scrollToTopBtn">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <title>arrow-up</title>
+            <path d="M13,20H11V8L5.5,13.5L4.08,12.08L12,4.16L19.92,12.08L18.5,13.5L13,8V20Z" />
+         </svg>
+      </button>
+      <script src="inc/assets/js/swiper-bundle.min.js"></script>
+      <script>
+         new WOW().init();
+      </script>
+   </body>
+</html>
