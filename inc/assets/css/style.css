@@ -4553,6 +4553,8 @@ ul.footer-social-links {
    font-size: var(--font-size-md);
    margin-bottom: 3rem;
    text-align: left;
+   margin-top: 2rem;
+   line-height: 1.5;
 }
 .service-detail-section .service-detail-wrapper .primary-heading .underline {
    height: 2px;
