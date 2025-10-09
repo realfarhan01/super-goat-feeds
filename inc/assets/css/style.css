@@ -4561,7 +4561,7 @@ ul.footer-social-links {
    margin: 12px 0;
 }
 .service-detail-section .service-detail-wrapper p {
-   margin-bottom: 4rem;
+   margin-bottom: 1rem;
 }
 @media (max-width: 767px) {
    .service-detail-section .service-detail-wrapper .form-button-area {
@@ -4586,8 +4586,8 @@ ul.footer-social-links {
    color: var(--grey);
    text-transform: capitalize;
    border: 1px solid var(--border-color);
-   padding: 2rem 3rem;
-   border-radius: 3rem;
+   padding: 2rem 2rem;
+   border-radius: 1rem;
    display: inline-block;
    transition: 0.3s ease;
 }
@@ -6291,4 +6291,26 @@ p.development a {
 }
 .service-detail-section .primary-heading{
    font-size: var(--font-size-md);
+}
+.service-detail-wrapper.row {
+    display: flex;
+    gap: 0;
+    margin-top: 50px;
+}
+.checkpoint-box {
+    list-style: none;
+}
+.checkpoint-box .checkpoint {
+    margin-bottom: 1rem;
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.checkpoint-box .checkpoint::before {
+    content: url(data:image/svg+xml,%3Csvg xmlns%3D%22http%3A//www.w3.org/2000/svg%22 viewBox%3D%220 0 24 24%22%3E%3Ctitle%3Echeck-decagram%3C/title%3E%3Cpath fill%3D%22%23ff6d2d%22 d%3D%22M23%2C12L20.56%2C9.22L20.9%2C5.54L17.29%2C4.72L15.4%2C1.54L12%2C3L8.6%2C1.54L6.71%2C4.72L3.1%2C5.53L3.44%2C9.21L1%2C12L3.44%2C14.78L3.1%2C18.47L6.71%2C19.29L8.6%2C22.47L12%2C21L15.4%2C22.46L17.29%2C19.28L20.9%2C18.46L20.56%2C14.78L23%2C12M10%2C17L6%2C13L7.41%2C11.59L10%2C14.17L16.59%2C7.58L18%2C9L10%2C17Z%22/%3E%3C/svg%3E);
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin: 4px 10px 0 0;
+    vertical-align: top;
 }
