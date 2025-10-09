@@ -4748,8 +4748,8 @@ ul.footer-social-links {
    text-align: center;
 }
 .service-detail-section .service-detail-wrapper .service-content-block {
-/*   display: block;
-   opacity: 0;*/
+   display: block !important;
+   /*opacity: 0;*/
    transition: opacity 0.5s ease;
 }
 .service-detail-section
